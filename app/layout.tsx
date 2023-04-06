@@ -3,6 +3,7 @@ import './globals.css'
 import Header from "@/app/components/Header";
 import FollowBar from "@/app/components/FollowBar";
 import Modal from "@/app/components/Modal";
+import Input from "@/app/components/UI/Input";
 
 export const metadata = {
   title: 'Elon Musk',
@@ -22,7 +23,7 @@ export default function RootLayout({
     <Header/>
     {children}
     <FollowBar/>
-    <Modal label="Submit" title="hello" isOpen/>
+    <Modal label="Submit" title="hello"/>
     </body>
     </html>
   )
