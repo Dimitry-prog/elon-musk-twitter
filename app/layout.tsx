@@ -1,5 +1,7 @@
 import {ReactNode} from "react";
 import './globals.css'
+import Header from "@/app/components/Header";
+import FollowBar from "@/app/components/FollowBar";
 
 export const metadata = {
   title: 'Elon Musk',
@@ -14,9 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body
-      className="bg-slate-500 dark:bg-slate-600"
+      className=" p-4 md:p-6 flex gap-6 justify-between dark:bg-slate-600"
     >
+    <Header/>
     {children}
+    <FollowBar/>
     </body>
     </html>
   )
