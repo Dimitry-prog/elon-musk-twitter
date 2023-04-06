@@ -2,6 +2,7 @@ import {ReactNode} from "react";
 import './globals.css'
 import Header from "@/app/components/Header";
 import FollowBar from "@/app/components/FollowBar";
+import Modal from "@/app/components/Modal";
 
 export const metadata = {
   title: 'Elon Musk',
@@ -21,6 +22,7 @@ export default function RootLayout({
     <Header/>
     {children}
     <FollowBar/>
+    <Modal label="Submit" title="hello" isOpen/>
     </body>
     </html>
   )
