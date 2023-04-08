@@ -11,6 +11,7 @@ const Logo = () => {
         src={dogeCoin}
         alt="Elon Musk's dog twitter"
         className="w-12 h-12"
+        loading="lazy"
       />
     </Link>
   );

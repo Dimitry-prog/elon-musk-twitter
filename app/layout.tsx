@@ -1,9 +1,9 @@
-import {ReactNode} from "react";
+import { ReactNode } from "react";
 import './globals.css'
 import Header from "@/app/components/Header";
 import FollowBar from "@/app/components/FollowBar";
-import Modal from "@/app/components/Modal";
-import Input from "@/app/components/UI/Input";
+import LoginModal from "@/app/components/LoginModal";
+import RegisterModal from "@/app/components/RegisterModal";
 
 export const metadata = {
   title: 'Elon Musk',
@@ -23,7 +23,8 @@ export default function RootLayout({
     <Header/>
     {children}
     <FollowBar/>
-    <Modal label="Submit" title="hello"/>
+    <LoginModal/>
+    <RegisterModal/>
     </body>
     </html>
   )

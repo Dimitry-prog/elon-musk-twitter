@@ -1,7 +1,7 @@
 import Logo from "@/app/components/Logo";
-import {links} from "@/data/links";
+import { links } from "@/data/links";
 import LinkItem from "@/app/components/LinkItem";
-import {BiLogOut} from "react-icons/all";
+import { BiLogOut } from "react-icons/bi";
 import TweetButton from "@/app/components/TweetButton";
 
 const Header = () => {
